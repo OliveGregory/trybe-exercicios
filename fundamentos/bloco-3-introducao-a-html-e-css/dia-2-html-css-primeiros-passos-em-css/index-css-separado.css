@@ -1,0 +1,28 @@
+<style>
+
+    h1 {
+        font-family: sans-serif;
+        font-style: inherit;
+        color: whitesmoke;
+        background-color: black;
+    }
+
+    p {
+        font-weight: 600;
+        font-size: 48px;
+        color: whitesmoke;
+        background-color: black
+    }
+
+    body {
+        font-size: 16px;
+        
+    }
+    
+    ul {
+        line-height: 25px;
+        color: whitesmoke;
+        background-color: black
+    }
+
+</style>
