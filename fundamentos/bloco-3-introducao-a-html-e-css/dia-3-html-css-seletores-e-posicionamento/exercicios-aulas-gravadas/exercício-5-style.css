@@ -1,0 +1,61 @@
+ol.yellow li.par {
+    color: green;
+    background-color: yellow;
+}
+
+ol.yellow li.ímpar {
+    text-transform: uppercase;
+    background-color: yellow;
+}
+
+h1, h3 {
+    color: red;
+}
+
+#italic {
+    font-size: 40px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+li {
+    font-size: 20px;
+}
+
+.ita {
+    font-weight: bold;
+}
+
+ul.colorlist li {
+    color: blue;
+}
+
+ul.colorlist li.dif {
+    background-color: pink;
+}
+
+.um:hover {
+    font-weight: bold;
+    color: orange;
+}
+
+.dois:hover {
+    font-weight: bold;
+    color: green;
+}
+
+.tres:hover {
+    font-weight: bold;
+    color: black;
+}
+
+.quatro:hover {
+    font-weight: bold;
+    color: yellow;
+}
+
+.cinco:hover {
+    font-weight: bold;
+    color: green;
+}
