@@ -55,6 +55,6 @@ for (cont = 0; cont < numbers.length; cont++) {
     if ( numbers[cont] < menor ) {
        menor = numbers[cont];
     }
-}
+
 
 console.log('O menor número do array é:', menor)
