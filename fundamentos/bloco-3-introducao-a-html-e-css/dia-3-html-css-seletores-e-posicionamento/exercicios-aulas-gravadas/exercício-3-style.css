@@ -1,0 +1,17 @@
+.center {
+    text-align: center;
+}
+
+li:hover {
+    background-color: blue;
+
+}
+
+li:active {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.listchanged {
+    list-style: none
+
+}
