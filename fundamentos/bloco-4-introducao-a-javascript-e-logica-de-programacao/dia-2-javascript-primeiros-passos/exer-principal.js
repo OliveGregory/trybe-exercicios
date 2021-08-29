@@ -58,3 +58,4 @@ for (cont = 0; cont < numbers.length; cont++) {
 
 
 console.log('O menor número do array é:', menor)
+
