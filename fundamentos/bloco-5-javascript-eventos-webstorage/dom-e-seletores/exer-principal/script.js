@@ -5,3 +5,5 @@ document.getElementsByClassName('main-content')[0].style.backgroundColor = 'rgb(
 document.getElementsByClassName('center-content')[0].style.backgroundColor = 'white';
 
 document.getElementsByTagName('h1')[0].innerText = 'Corrigindo texto';
+
+document.getElementsByTagName('p')[0].innerText = 'Mudando todo o texto na tag p';
