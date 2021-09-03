@@ -7,3 +7,5 @@ document.getElementsByClassName('center-content')[0].style.backgroundColor = 'wh
 document.getElementsByTagName('h1')[0].innerText = 'Corrigindo texto';
 
 document.getElementsByTagName('p')[0].innerText = 'Mudando todo o texto na tag p';
+
+console.log(document.getElementsByTagName('p')[0]);
