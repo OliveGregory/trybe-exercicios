@@ -1,0 +1,32 @@
+.div1:hover {
+    background-color: gray
+}
+
+.div2:hover {
+    background-color: green;
+
+}
+
+.div3 {
+    font-size: 20px;
+}
+
+.div3:hover {
+    background-color: indigo;
+
+}
+
+.div4:hover {
+    background-color: rgb(51, 9, 9);
+    
+}
+
+.div5:hover {
+    background-color: cyan
+    
+}
+
+.fontstyle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
