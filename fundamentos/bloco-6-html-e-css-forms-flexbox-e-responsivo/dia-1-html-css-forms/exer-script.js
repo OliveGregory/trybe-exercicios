@@ -33,5 +33,4 @@ var estados = [
 
 for(i=0; i<estados.length; i += 1){
   selEstado.append('<option>' + estados[i] + '</option>');
-  console.log('<option>' + estados[i] + '</option>');
 }
