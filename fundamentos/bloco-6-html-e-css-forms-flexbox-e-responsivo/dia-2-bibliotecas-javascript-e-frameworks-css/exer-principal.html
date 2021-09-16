@@ -5,35 +5,38 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link href="style-exer-principal.css" rel="stylesheet">
+
 </head>
 
 <body>
+  <form method="GET">
 
-  <fieldset for="fullname">Nome completo:
-    <input type="text" name="name" id="fullname" required maxlength="40" placeholder="Digite seu nome">
-  </fieldset>
+    <fieldset for="fullname">Nome completo:
+      <input type="text" name="name" id="fullname" required maxlength="40" placeholder="Digite seu nome">
+    </fieldset>
 
-  <fieldset for="your-email">Email:
-    <input type="email" name="email" id="your-email" required maxlength="50" placeholder="Digite seu email">
-  </fieldset>
+    <fieldset for="your-email">Email:
+      <input type="email" name="email" id="your-email" required maxlength="50" placeholder="Digite seu email">
+    </fieldset>
 
-  <fieldset for="your-cpf">CPF:
-    <input type="text" name="cpf" id="your-cpf" required maxlength="11" placeholder="Digite seu cpf">
-  </fieldset>
+    <fieldset for="your-cpf">CPF:
+      <input type="text" name="cpf" id="your-cpf" required maxlength="11" placeholder="Digite seu cpf">
+    </fieldset>
 
-  <fieldset for="your-endereco">Endereço:
-    <input type="text" name="endereco" id="your-endereco" required maxlength="200" placeholder="Digite seu endereco e possível complemento">
-  </fieldset>
+    <fieldset for="your-endereco">Endereço:
+      <input type="text" name="endereco" id="your-endereco" required maxlength="200" placeholder="Digite seu endereco e possível complemento">
+    </fieldset>
 
-  <fieldset>Cidade:
-    <input type="text" name="cidade" id="your-cidade" required maxlength="28" placeholder="Digite o  nome da cidade onde você mora">
-  </fieldset>
+    <fieldset>Cidade:
+      <input type="text" name="cidade" id="your-cidade" required maxlength="28" placeholder="Digite o  nome da cidade onde você mora">
+    </fieldset>
 
-  <label for="your-estado">Estado onde mora:
-    <select name="estado" id="your-estado" class="add-estados"> </select>
-  </label>
+    <label for="your-estado">Estado onde mora:
+      <select name="estado" id="your-estado" class="add-estados" required> </select>
+    </label>
 
-  <script src="exer-script.js"></script>
+  </form>
+
+  <script src="script.js"></script>
 </body>
 </html>

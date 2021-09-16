@@ -1,6 +1,6 @@
 let selEstado = document.getElementById('your-estado');
 
-var estados = [
+let arrayStates = [
 'AC - Acre',
 'AL - Alagoas',
 'AP - Amapá',
@@ -31,6 +31,13 @@ var estados = [
 
 
 
-for(i=0; i<estados.length; i += 1){
-  selEstado.append('<option>' + estados[i] + '</option>');
+function array() {
+  for (let index = 0; index < arrayStates.length; index +=1) {
+  const createOptions = document.createElement('option');
+    const states = arrayStates[index];
+    createOptions.innerText = states;
+    selectStates.appendChild(createOptions);
+  }
 }
+
+array(); 
