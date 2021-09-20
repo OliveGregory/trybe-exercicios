@@ -8,32 +8,60 @@
 
 </head>
 
-<body>
+<body id="corpo">
   <form method="GET">
 
-    <fieldset for="fullname">Nome completo:
-      <input type="text" name="name" id="fullname" required maxlength="40" placeholder="Digite seu nome">
+    <fieldset class="first-fildset">
+
+      <label for="fullname">Nome completo:
+        <input type="text" name="name" id="fullname" required maxlength="40" placeholder="Digite seu nome">
+      </label>
+
+      <label for="your-email">Email:
+        <input type="email" name="email" id="your-email" required maxlength="50" placeholder="Digite seu email">
+      </label>
+
+      <label for="your-cpf">CPF:
+        <input type="text" name="cpf" id="your-cpf" required maxlength="11" placeholder="Digite seu cpf">
+      </label>
+
+      <label for="your-endereco">Endereço:
+        <input type="text" name="endereco" id="your-endereco" required maxlength="200" placeholder="Digite seu endereco e possível complemento">
+      </label>
+
+      <label>Cidade:
+        <input type="text" name="cidade" id="your-cidade" required maxlength="28" placeholder="Digite o  nome da cidade onde você mora">
+      </label>
+
+      <label for="your-estado">Estado onde mora:
+        <select name="estado" id="your-estado" class="add-estados" required> </select>
+      </label>
+
     </fieldset>
 
-    <fieldset for="your-email">Email:
-      <input type="email" name="email" id="your-email" required maxlength="50" placeholder="Digite seu email">
-    </fieldset>
+    <fieldset>
 
-    <fieldset for="your-cpf">CPF:
-      <input type="text" name="cpf" id="your-cpf" required maxlength="11" placeholder="Digite seu cpf">
-    </fieldset>
+      <label for="description">Seu currículo:
+      <textarea name="description" id="description" maxlength="1000" rows="3" required></textarea>
+      </label>
 
-    <fieldset for="your-endereco">Endereço:
-      <input type="text" name="endereco" id="your-endereco" required maxlength="200" placeholder="Digite seu endereco e possível complemento">
-    </fieldset>
+      <label for="office">Cargo:
+        <input type="text" id="office" maxlength="40" required>
+      </label>
 
-    <fieldset>Cidade:
-      <input type="text" name="cidade" id="your-cidade" required maxlength="28" placeholder="Digite o  nome da cidade onde você mora">
-    </fieldset>
+      <label for="office-descrition">Descrição do cargo:
+        <input type="text" id="office-description" maxlength="500" required>
+      </label>
 
-    <label for="your-estado">Estado onde mora:
-      <select name="estado" id="your-estado" class="add-estados" required> </select>
-    </label>
+      <label for="date">Data:
+        <input type="date" id="date" required>
+      </label>
+
+      <label for="checkform">
+        <button type="submit" id="checkform" name="checkform">Enviar</button>
+      </label>
+
+    </fieldset>
 
   </form>
 
