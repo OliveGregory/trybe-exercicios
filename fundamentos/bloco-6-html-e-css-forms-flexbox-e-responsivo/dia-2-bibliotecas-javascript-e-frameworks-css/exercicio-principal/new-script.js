@@ -40,5 +40,13 @@ let arrayStates = [
     }
   }
     
-  array(); 
-  //console.log(arrayStates);
+array(); 
+//console.log(arrayStates);
+
+let date = getElementById('date');
+
+function alertDate(){
+  if(date.value == ''){
+    alert('Campo >data< não adicionado');
+  }
+}

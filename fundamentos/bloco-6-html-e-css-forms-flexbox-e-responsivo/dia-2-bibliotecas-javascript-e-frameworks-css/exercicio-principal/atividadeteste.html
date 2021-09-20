@@ -9,31 +9,74 @@
 </head>
 
 <body>
+
   <form method="GET">
 
-    <fieldset for="fullname">Nome completo:
-      <input type="text" name="name" id="fullname" required maxlength="40" placeholder="Digite seu nome">
+    <fieldset>
+
+      <div for="fullname">Nome completo:
+        <input type="text" name="name" id="fullname" required maxlength="40" placeholder="Digite seu nome">
+      </div> <br>
+
+      <div for="your-email">Email:
+        <input type="email" name="email" id="your-email" required maxlength="50" placeholder="Digite seu email">
+      </div> <br>
+
+      <div for="your-cpf">CPF:
+        <input type="text" name="cpf" id="your-cpf" required maxlength="11" placeholder="Digite seu cpf">
+      </div> <br>
+
+      <div for="your-endereco">Endereço:
+        <input type="text" name="endereco" id="your-endereco" required maxlength="200" placeholder="Digite seu endereco e possível complemento">
+      </div> <br>
+
+      <div>Cidade:
+        <input type="text" name="cidade" id="your-cidade" required maxlength="28" placeholder="Digite o  nome da cidade onde você mora">
+      </div> <br>
+      
+      <div>
+        <label for="your-estado">Estado onde mora:
+          <select name="estado" id="your-estado" class="add-estados" required> </select>
+        </label>
+      </div> <br>
+
+      <div>
+        <label for="home-space">Home:</label><br>
+          <input type="radio" id="home-space-one" name="home-space" value="home" required>Casa
+          <input type="radio" id="home-space-two" name="home-space" value="home" required>Apartamento
+        </label><br>  
+      </div>
+
     </fieldset>
 
-    <fieldset for="your-email">Email:
-      <input type="email" name="email" id="your-email" required maxlength="50" placeholder="Digite seu email">
-    </fieldset>
+    <!-- Parte 2 -->
 
-    <fieldset for="your-cpf">CPF:
-      <input type="text" name="cpf" id="your-cpf" required maxlength="11" placeholder="Digite seu cpf">
-    </fieldset>
+    <fieldset>
 
-    <fieldset for="your-endereco">Endereço:
-      <input type="text" name="endereco" id="your-endereco" required maxlength="200" placeholder="Digite seu endereco e possível complemento">
-    </fieldset>
+      <div>
+        <label for="resume">Currículo:</label>
+          <textarea type="texta" name="resume" id="resume-work" maxlength="1000" placeholder='Fale um pouco sobre seu currículo' required></textarea>
+      </div> <br>
 
-    <fieldset>Cidade:
-      <input type="text" name="cidade" id="your-cidade" required maxlength="28" placeholder="Digite o  nome da cidade onde você mora">
-    </fieldset>
+      <div>
+        <label for="office">Cargo:
+          <input type="text" id="office" name="office" value=""  maxlength="40" required>
+        </label>
+      </div> <br>
 
-    <label for="your-estado">Estado onde mora:
-      <select name="estado" id="your-estado" class="add-estados" required> </select>
-    </label>
+      <div>
+        <label for="description-office">Descrição de cargo:
+          <input type="text" id="desc-office" name="description-office" value=""  maxlength="1000" required>
+        </label>
+      </div> <br>
+
+      <div>
+        <label for="date">
+          <input type="date" id="date" required>
+        </label>
+      </div>
+
+    </fieldset>
 
   </form>
 
