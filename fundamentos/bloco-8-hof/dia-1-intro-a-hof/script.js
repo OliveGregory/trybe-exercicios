@@ -1,10 +1,15 @@
-const newEmployees = () => {
+const newEmployees = (concatFunction) => {
   const employees = {
-    id1: 'Pedro Guerra', 
-    id2: 'Luiza Drumond',
-    id3: 'Carla Paiva',
+    id1: concatFunction('Pedro Guerra'), 
+    id2: concatFunction('Luiza Drumond'),
+    id3: concatFunction('Carla paiva'),
   };
-  console.log(employees.toLowerCase());
+  return employees; 
 };
 
-newEmployees();
+const concatFunction = (fullName) => {
+  const email = fullName.toLowerCase().split(' ').join('_');
+  return {fullName ,emai: `${email}@betrybe.com`};
+}
+
+console.log(newEmployees(concatFunction));
